@@ -9,8 +9,7 @@ class B3 extends CI_Controller
         if (!$this->session->userdata('username')){
             redirect('HalamanLogin');
         }
-        else{
-            $data['user'] = $this->db->get_where('data_admin', ['username' => $this->session->userdata('username')])->row_array();
+        else{ 
             if ($this->session->userdata('id_role') != 29) {
                 redirect('HalamanLogin');
             }
