@@ -37,7 +37,7 @@
                                 <div class="p-5">
                                     <div class="text-center border-bottom-danger mb-5">
                                         <h1 class="h4 text-gray-900 mb-4">
-                                        Selamat Datang di Halaman LOGIN BOSS!!</h1>
+                                        Selamat Datang di Halaman Login :)</h1>
                                         <img src="<?= $logo;?>" class="img-fluid" alt="Responsive image" style="width:100%;border:1px solid red;">
                                     </div>
                                     <b><span style="color: black;">
